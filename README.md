@@ -47,4 +47,14 @@ export default fetchWeather;
 
 7. import api file into App.js
 
+8. follow all features
 
+9. Deploy on netlify : npm run build on terminal 
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+npm install -g serve
+  serve -s build
+  
+10. copy link 
