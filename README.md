@@ -25,4 +25,26 @@ export default App;
 
 6. Axios Fetch
 
-    
+   create api folder in src, create new fetchWeather.js api file 
+
+   import axios from 'axios';
+
+const URL = 'https://api.openweathermap.org/data/2.5/weather';
+const API_KEY = 'f33a484cf794d0148764789aaba32';
+
+const fetchWeather = async (query) => {
+    const { data } = await axios.get(URL, {
+        params: {
+            q: query,
+            units: 'metric',
+            APPID: API_KEY,
+        }
+    });
+    return data;
+}
+
+export default fetchWeather;
+
+7. import api file into App.js
+
+
