@@ -49,12 +49,10 @@ export default fetchWeather;
 
 8. follow all features
 
-9. Deploy on netlify : npm run build on terminal 
+9. Deploy on netlify to satisfy PWA https optimization:
+
+npm run build on terminal 
 
 The build folder is ready to be deployed.
 You may serve it with a static server:
 
-npm install -g serve
-  serve -s build
-  
-10. copy link 
