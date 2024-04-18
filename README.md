@@ -1,4 +1,4 @@
-# progressive-web-app
+# progressive-web-app - weather app
 Progressive web app 1
 
 1. npx create-react-app ./
@@ -16,7 +16,7 @@ Progressive web app 1
 const App = () => {
   return (
     <div>
-      <h1>My React App!</h1>
+      <>My React App!<>
     </div>
   );
 }
